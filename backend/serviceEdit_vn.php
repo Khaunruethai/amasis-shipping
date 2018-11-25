@@ -149,15 +149,25 @@ textarea {
           <hr>
           <div class="container" class="responsive ">
           <form action="updateSERVICE_vn.php"  method="POST">
-          <div class = "fontt"><p>NVOCC  OPERATOR  SERVICE</p></div>
+          <div class = "fontt"><p>topic</p></div>
+          <textarea id="text66" name="message66" style="height:50px"><?php echo $variable1[63];?></textarea><br><br>
+          <div class = "fontt"><p>content</p></div>
           <textarea id="text61" name="message61" style="height:100px"><?php echo $variable1[64];?></textarea><br><br>
-          <div class = "fontt"><p>SHIP  CHARTERING</p></div>
+          <div class = "fontt"><p>topic</p></div>
+          <textarea id="text67" name="message67" style="height:50px"><?php echo $variable1[65];?></textarea><br><br>
+          <div class = "fontt"><p>content</p></div>
           <textarea id="text62" name="message62"  style="height:100px"><?php echo $variable1[66];?></textarea><br><br>
-          <div class = "fontt"> <p>ROAD  TRANSPORT</p></div>
+          <div class = "fontt"> <p>topic</p></div>
+          <textarea id="text68" name="message68" style="height:50px"><?php echo $variable1[67];?></textarea><br><br>
+          <div class = "fontt"><p>content</p></div>
           <textarea id="text63" name="message63" style="height:100px"><?php echo $variable1[68];?></textarea><br><br>
-          <div class = "fontt"><p>DEPOT</p></div>
+          <div class = "fontt"><p>topic</p></div>
+          <textarea id="text69" name="message69" style="height:50px"><?php echo $variable1[69];?></textarea><br><br>
+          <div class = "fontt"><p>content</p></div>
           <textarea id="text64" name="message64" style="height:100px"><?php echo $variable1[70];?></textarea><br><br>
-          <div class = "fontt"><p>REFER  SERVICE</p></div>
+          <div class = "fontt"><p>topic</p></div>
+          <textarea id="text670" name="message70" style="height:50px"><?php echo $variable1[71];?></textarea><br><br>
+          <div class = "fontt"><p>content</p></div>
           <textarea id="text65" name="message65" style="height:100px"><?php echo $variable1[72];?></textarea><br><br>
           <button type="submit" class="btn btn-primary">submit</button>
           </form>

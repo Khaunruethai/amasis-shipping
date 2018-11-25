@@ -48,6 +48,56 @@
  WHERE id=73";
  mysqli_query($objCon,$sqli65); 
 
+ $message61 = $_POST["message61"];
+ $sqli61 ="UPDATE vn SET  message1= '$message61' 
+ WHERE id=65";
+ mysqli_query($objCon,$sqli61); 
+
+
+
+ 
+//////////////////////////
+ $message66= $_POST["message66"];
+
+ $sqli66 ="UPDATE vn SET  message1= '$message66' 
+ WHERE id=64";
+ mysqli_query($objCon,$sqli66); 
+
+ ///////////////////////////////
+   $message67 = $_POST["message67"];
+   $sqli67="UPDATE vn SET  message1= '$message67' 
+   WHERE id=66";
+mysqli_query($objCon,$sqli67); 
+
+
+////////////////////////////////
+
+   $message68= $_POST["message68"];
+   $sqli68 ="UPDATE vn SET  message1= '$message68' 
+   WHERE id=68";
+   mysqli_query($objCon,$sqli68); 
+
+
+
+/////////////////////////////
+$message69= $_POST["message69"];
+
+
+$sqli69 ="UPDATE vn SET  message1= '$message69' 
+WHERE id=70";
+mysqli_query($objCon,$sqli69); 
+/////////////////////////////
+$message70= $_POST["message70"];
+
+
+$sqli70 ="UPDATE vn SET  message1= '$message70' 
+WHERE id=72";
+mysqli_query($objCon,$sqli70); 
+
+
+
+
+
 
  
 
