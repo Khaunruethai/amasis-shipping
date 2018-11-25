@@ -5,7 +5,6 @@
 	$dbName1 = "heroku_582a87dceadee92";
 	$dbname = mysqli_connect("us-cdbr-iron-east-01.cleardb.net","bc31b9f07b0dea","5904a8d2","heroku_582a87dceadee92");
 	mysqli_set_charset($dbname,"utf8");
-
 	$sqli ="SELECT * from vn ";
 	$variable1 = array();
 	$result = mysqli_query($dbname,$sqli);
@@ -103,7 +102,5 @@
 	$var88 = $variable1[88];
 	$var89 = $variable1[89];
 	$var90 = $variable1[90];
-
-
 	?>
 	

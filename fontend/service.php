@@ -141,107 +141,82 @@ $objQuery31 = mysqli_query($objCon,$sqli31);
 <div class = "container">
  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
   <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button> 
-      <div class="zoom">
-             <a class="navbar-brand" href="home.php">
-                   <img src="../img_logis/<?php echo $Result2['pro_image'];?> " class="responsive" style="width:125px " >
-                   </a></div></div>
-
-    <div class="collapse navbar-collapse" id="myNavbar">
-           <ul class="nav navbar-nav navbar-right"><br>
-                
-                 <li><a href="incoterm.php"><?php echo $var4;?></a></li>
-               <li><a href="service.php"><?php echo $var5;?></a></li>
-               <li><a  href="contact.php"><?php echo $var6;?></a></li>
-               <li><a  href="portfolio.php"><?php echo $var7;?></a></li>
-               <a href="check_lang.php?message=EN"method="get" class ="active"><?php echo $var1;?>|</a>
-               <a href="check_lang.php?message=VN"method="get"><?php echo $var2;?></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+                </button> 
+                <div class="zoom">
+                <a class="navbar-brand" href="Home.php">
+                <img src="../img_logis/<?php echo $Result2['pro_image'];?> " class="responsive" style="width:125px " >
+                </a></div></div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right"><br>     
+                <li><a href="incoterm.php"><?php echo $var4;?></a></li>
+                <li><a href="service.php"><?php echo $var5;?></a></li>
+                <li><a  href="contact.php"><?php echo $var6;?></a></li>
+                <li><a  href="portfolio.php"><?php echo $var7;?></a></li>
+                <a href="check_lang.php?message=EN"method="get" class ="active"><?php echo $var1;?>|</a>
+                <a href="check_lang.php?message=VN"method="get"><?php echo $var2;?></a>
              </div>
            </ul>
       </div>
     </div>
   </nav>
   </div>
-
-
-
-
-
-<br><br><br><br>
-
-
-
-
-<div class="container">
-<div class="row">
-<div class="col-sm-3"></div>
-  <div class="col-sm-6">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-
-      <div class="carousel-inner" role="listbox">
-        <div class="item active">
-        <img src="../img_logis/<?php echo $Result34['pro_image'];?>"  alt="Image" >
-        <div class="carousel-caption">
-      <div class="thumbnail" style="opacity: 0.9">
-   
-         <div class = "dd"> <p><font color="#000000">  OUR  NVOCC  SERVICE</font></p></div>
-        </div>      
-        </div> 
-        </div> 
-
-        <div class="item">
-        <img src="../img_logis/<?php echo $Result36['pro_image'];?>" alt="Image" >
-          <div class="carousel-caption">
-      <div class="thumbnail" style="opacity: 0.9">
-         <div class = "dd"> <p><font color="#000000">  OUR  NVOCC  SERVICE</font></p></div>
-        </div>      
-        </div> 
-        </div> 
-
-
-
-                <div class="item">
-                <img src="../img_logis/<?php echo $Result38['pro_image'];?>"alt="Image" >
-                <div class="carousel-caption">
-      <div class="thumbnail" style="opacity: 0.9">
-         <div class = "dd"> <p><font color="#000000">  OUR  NVOCC  SERVICE</font></p></div>
-        </div>      
-        </div> 
-        </div> 
-
-                <div class="item">
-                <img src="../img_logis/<?php echo $Result40['pro_image'];?>" alt="Image" >
-                <div class="carousel-caption">
-      <div class="thumbnail" style="opacity: 0.9">
-         <div class = "dd"> <p><font color="#000000">  OUR  NVOCC  SERVICE</font></p></div>
-        </div>      
-        </div> 
-        </div> 
-
-                  <div class="item">
-                <img src="../img_logis/<?php echo $Result42['pro_image'];?>" alt="Image" >
-                <div class="carousel-caption">
-      <div class="thumbnail" style="opacity: 0.9">
-         <div class = "dd"> <p><font color="#000000">  OUR  NVOCC  SERVICE</font></p></div>
-        </div>      
-        </div> 
-        </div> 
-        <div class="col-sm-1"></div>
-      </div>
-
-
-      <!-- Left and right controls -->
+            <br><br><br><br>
+            <div class="container">
+            <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+            <div class="item active">
+            <img src="../img_logis/<?php echo $Result34['pro_image'];?>"  alt="Image" >
+            <div class="carousel-caption">
+            <div class="thumbnail" style="opacity: 0.9">
+            <div class = "dd"> <p><font color="#000000">  OUR  NVOCC  SERVICE</font></p></div>
+            </div>      
+            </div> 
+            </div> 
+            <div class="item">
+            <img src="../img_logis/<?php echo $Result36['pro_image'];?>" alt="Image" >
+            <div class="carousel-caption">
+            <div class="thumbnail" style="opacity: 0.9">
+            <div class = "dd"> <p><font color="#000000">  OUR  NVOCC  SERVICE</font></p></div>
+            </div>      
+            </div> 
+            </div> 
+            <div class="item">
+            <img src="../img_logis/<?php echo $Result38['pro_image'];?>"alt="Image" >
+            <div class="carousel-caption">
+            <div class="thumbnail" style="opacity: 0.9">
+            <div class = "dd"> <p><font color="#000000">  OUR  NVOCC  SERVICE</font></p></div>
+            </div>      
+            </div> 
+            </div> 
+            <div class="item">
+            <img src="../img_logis/<?php echo $Result40['pro_image'];?>" alt="Image" >
+            <div class="carousel-caption">
+            <div class="thumbnail" style="opacity: 0.9">
+            <div class = "dd"> <p><font color="#000000">  OUR  NVOCC  SERVICE</font></p></div>
+            </div>      
+            </div> 
+            </div> 
+            <div class="item">
+            <img src="../img_logis/<?php echo $Result42['pro_image'];?>" alt="Image" >
+            <div class="carousel-caption">
+            <div class="thumbnail" style="opacity: 0.9">
+            <div class = "dd"> <p><font color="#000000">  OUR  NVOCC  SERVICE</font></p></div>
+            </div>      
+            </div> 
+            </div> 
+            <div class="col-sm-1"></div>
+            </div>
       <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -265,7 +240,6 @@ $objQuery31 = mysqli_query($objCon,$sqli31);
          <?php echo $var64;?>
 					</p>
         </li>
-        
 				<li>
 					<h1><?php echo $var65;?></h1>
 					<p>
@@ -280,7 +254,6 @@ $objQuery31 = mysqli_query($objCon,$sqli31);
          </li>
          </ul>
     </div>
-  
          <div id="contents">
          <div class ="row">
     <div class="col-sm-2"></div>
@@ -303,7 +276,6 @@ $objQuery31 = mysqli_query($objCon,$sqli31);
 	</div>
   </div>
   </div>
-
         <footer>
 <div class="col-sm-6">
 <iframe width="300" height="240" src="https://www.youtube.com/embed/SKP8UfSvSoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -320,7 +292,6 @@ $objQuery31 = mysqli_query($objCon,$sqli31);
 <br>
 <center><?php echo $var38;?></p></center>
 </footer>
-<!-- WhatsHelp.io widget -->
 <script type="text/javascript">
     (function () {
         var options = {
@@ -334,6 +305,5 @@ $objQuery31 = mysqli_query($objCon,$sqli31);
         var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
     })();
 </script>
-<!-- /WhatsHelp.io widget -->
 </body>
 </html>

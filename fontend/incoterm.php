@@ -131,7 +131,7 @@ body {
         <span class="icon-bar"></span>                        
       </button> 
       <div class="zoom">
-             <a class="navbar-brand" href="home.php">
+             <a class="navbar-brand" href="Home.php">
                    <img src="../img_logis/<?php echo $Result2['pro_image'];?> " class="responsive" style="width:125px " >
                    </a></div></div>
 

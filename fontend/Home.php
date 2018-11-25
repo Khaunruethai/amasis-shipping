@@ -109,15 +109,15 @@ else
     $Result16= mysqli_fetch_array($objQuery16,MYSQLI_ASSOC);
 
         ///////////////////////////////profile amy///////////////////////////////////////////
-        $sqli17 = "SELECT * FROM select_img where id = 9 ";
-        $objQuery17 = mysqli_query($objCon,$sqli17);
-          $Result17 = mysqli_fetch_array($objQuery17,MYSQLI_ASSOC);
-          $res8= $Result17['id_image'];
-    
-        $sqli18 = "SELECT * FROM img_logis  where id =$res8" ;
-        $objQuery18 = mysqli_query($objCon,$sqli18);
-        $Result18= mysqli_fetch_array($objQuery18,MYSQLI_ASSOC);
-    
+    $sqli17 = "SELECT * FROM select_img where id = 9 ";
+    $objQuery17 = mysqli_query($objCon,$sqli17);
+      $Result17 = mysqli_fetch_array($objQuery17,MYSQLI_ASSOC);
+      $res8= $Result17['id_image'];
+
+    $sqli18 = "SELECT * FROM img_logis  where id =$res8" ;
+    $objQuery18 = mysqli_query($objCon,$sqli18);
+    $Result18= mysqli_fetch_array($objQuery18,MYSQLI_ASSOC);
+
 
         
             /////////////////////////////profile vinh/////////////////////////////////////////////
@@ -168,9 +168,9 @@ else
         <span class="icon-bar"></span>                        
       </button> 
       <div class="zoom">
-             <a class="navbar-brand" href="home.php">
-                   <img src="../img_logis/<?php echo $Result2['pro_image'];?> " class="responsive" style="width:125px " >
-                   </a></div></div>
+             <a class="navbar-brand" href="Home.php">
+                <img src="../img_logis/<?php echo $Result2['pro_image'];?> " class="responsive" style="width:125px " >
+                </a></div></div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                <ul class="nav navbar-nav navbar-right"><br> 
                <li><a href="incoterm.php"><?php echo $var4;?></a></li>
@@ -186,38 +186,29 @@ else
   </nav>
   </div>
 <br><br><br>
-   <!-- slider -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
     <ol class="carousel-indicators ">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
-    <!-- Wrapper for slides -->
-
     <div class="carousel-inner" role="listbox">
       <div class="item active">
       <img  src="../img_logis/<?php echo $Result4['pro_image'];?>" class="responsive"width="1300" height="300">
       <div class="carousel-caption">
-
         </div>      
       </div>
-
       <div class="item">
       <img src="../img_logis/<?php echo $Result6['pro_image'];?>"class="responsive" width="1300" height="300"> 
       <div class="carousel-caption">
-
         </div>          
       </div>
-    
       <div class="item">
       <img  src="../img_logis/<?php echo $Result8['pro_image'];?>" class="responsive" width="1300" height="300"> 
       <div class="carousel-caption">
         </div>      
       </div>
       </div>
-
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
@@ -249,10 +240,8 @@ else
       </div>
       <div class="parallax-1"></div>
 <div class="parallax-1">
-<!-- Container (TOUR Section) -->
 <div class="container" class="responsive ">
 <div class="bg-1">
-
     <h3 class="text-center"><font color="#ffffff"><?php echo $var20;?></font></h3>
     <br>
     <div class="row text-center">
@@ -285,8 +274,6 @@ else
     </div>
     <br><br>
   </div>
-
-
   <div class="modal fade" id="myModal1" role="dialog">
   <div class="container" class="responsive">
     <div class="modal-dialog">
@@ -307,9 +294,6 @@ else
   </div>
   </div>
   </div>
-
-
-
   <div class="modal fade" id="myModal2" role="dialog">
   <div class="container" class="responsive">
     <div class="modal-dialog">
@@ -330,7 +314,6 @@ else
   </div>
   </div>
   </div>
-
   <div class="modal fade" id="myModal3" role="dialog">
   <div class="container" class="responsive">
     <div class="modal-dialog">
@@ -351,8 +334,6 @@ else
   </div>
   </div>
   </div>
-
-
 <div class="bg-2"><br>
 <div class ="container"><br><br>
 <div class="thumbnail" style="opacity: 0.92">
@@ -376,27 +357,20 @@ else
                 <div class="col-md-3">
                          <div class="thumbnail">
            <img  src="../img_logis/<?php echo $Result20['pro_image'];?>"  class="responsive" width="350" height="250"><br>
-         <center> <div class="cc"> <p><?php echo $var32;?></p></div>
+          <center> <div class="cc"> <p><?php echo $var32;?></p></div>
             <div class="dd"><p><?php echo $var33;?></p></div>
             <p><span class="glyphicon glyphicon-phone"></span>Phone:&nbsp;&nbsp;<?php echo $var34;?></p>
             <p><span class="glyphicon glyphicon-envelope"></span>Email:&nbsp;&nbsp;<?php echo $var37;?></p>
             </center>
                   </div>
                   </div>
-  <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
               </div>
               <br>
             </div>
             </div>
               </div>
             </div>
-
-
-
-
-
-
-
 <footer>
 <div class="col-sm-6">
 <iframe width="300" height="240" src="https://www.youtube.com/embed/SKP8UfSvSoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

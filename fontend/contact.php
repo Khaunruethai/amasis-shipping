@@ -27,7 +27,6 @@
           $objQuery2 = mysqli_query($objCon,$sqli2);
           $Result2 = mysqli_fetch_array($objQuery2,MYSQLI_ASSOC);
           ?>
-
           <!DOCTYPE html>
           <html lang="en">
           <head>
@@ -71,13 +70,11 @@
           <span class="icon-bar"></span>                        
           </button> 
           <div class="zoom">
-          <a class="navbar-brand" href="home.php">
+          <a class="navbar-brand" href="Home.php">
           <img src="../img_logis/<?php echo $Result2['pro_image'];?> " class="responsive" style="width:125px " >
           </a></div></div>
-
           <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right"><br>
-
           <li><a href="incoterm.php"><?php echo $var4;?></a></li>
           <li><a href="service.php"><?php echo $var5;?></a></li>
           <li><a  href="contact.php"><?php echo $var6;?></a></li>
@@ -91,7 +88,6 @@
           </nav>
           </div>
           <br>
-
           <br><br><br>
           <body>
           <div class="col-sm-4"></div>
@@ -117,7 +113,6 @@
           <input type="text"id="Subject" name="Country" placeholder="Country.."style="height:35px">
           <input type="text" id="Subject" name="Email" placeholder="E-mail.."style="height:35px"><br><br>
           <textarea type="text" id="Subject" name="Subject" placeholder="Write something.."style="width:345px"></textarea>
-
           <div class="row">
           <div class="col-md-12 form-group">
           <center> <input type="submit" value="sent"></center> 
@@ -172,6 +167,5 @@
           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
           })();
           </script>
-          <!-- /WhatsHelp.io widget -->
           </body>
           </html>

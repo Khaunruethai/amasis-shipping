@@ -722,13 +722,11 @@ $objQuery149 = mysqli_query($objCon,$sqli149);
         <span class="icon-bar"></span>                        
       </button> 
       <div class="zoom">
-             <a class="navbar-brand" href="home.php">
+             <a class="navbar-brand" href="Home.php">
                    <img src="../img_logis/<?php echo $Result2['pro_image'];?> " class="responsive" style="width:125px " >
                    </a></div></div>
-
-    <div class="collapse navbar-collapse" id="myNavbar">
-           <ul class="nav navbar-nav navbar-right"><br>
-                
+              <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav navbar-right"><br>     
                 <li><a href="incoterm.php"><?php echo $var4;?></a></li>
                <li><a href="service.php"><?php echo $var5;?></a></li>
                <li><a  href="contact.php"><?php echo $var6;?></a></li>
@@ -742,17 +740,13 @@ $objQuery149 = mysqli_query($objCon,$sqli149);
   </nav>
   </div>
 <br><br>
-
 <div class = "parallax-4">
-<!-- Header -->
 <div class="header" id="myHeader">
   <h1><font color="#ffffff">Image Grid</font></h1>
   <p><font color="#ffffff">Click on the buttons to change the grid view.</font></p>
   <button class="btn active" onclick="two()">2</button>
   <button class="btn" onclick="four()">4</button>
 </div>
-
-<!-- Photo Grid -->
 <div class = "container">
 <div class="thumbnail" style="opacity: 0.92">
 <div class="row"> 
@@ -774,7 +768,6 @@ $objQuery149 = mysqli_query($objCon,$sqli149);
     <img src="../img_logis/<?php echo $Result64['pro_image'];?>" style="width:100%">
     <img src="../img_logis/<?php echo $Result66['pro_image'];?>" style="width:100%">
     <img src="../img_logis/<?php echo $Result68['pro_image'];?>" style="width:100%">
-    
   </div>  
   <div class="column">
     <img src="../img_logis/<?php echo $Result70['pro_image'];?>" style="width:100%">
