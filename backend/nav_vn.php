@@ -162,7 +162,7 @@ textarea {
           <button type="submit" class="btn btn-primary">submit</button> 
           </div>
           <footer class="container-fluid text-center">
-<p><font color="#000">Copyright @ 2018 heroku_582a87dceadee92 Shipping co.,ltd</font></p>
+          <p><font color="#000">Copyright @ 2018 Amasis Shipping co.,ltd</font></p>
 </footer>
 </body>
 </html>
