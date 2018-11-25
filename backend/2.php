@@ -4,52 +4,39 @@
 	{
 		echo "Please Login!";
 		exit();
-	}
-
-  
+	} 
 	if($_SESSION['status'] != "admin")
 	{
 		echo "This page for Admin only!";
 		exit();
   }	
-
   $message= null;
 
   if(isset($_GET["message"]))
   {
     $message = $_GET["message"];
   }
- 
-	
 	$serverName = "us-cdbr-iron-east-01.cleardb.net";
 	$userName = "bc31b9f07b0dea";
 	$userPassword = "5904a8d2";
 	$dbName = "heroku_582a87dceadee92";
-
   $objCon = mysqli_connect($serverName,$userName,$userPassword,$dbName);
   mysqli_set_charset($objCon,"utf8");
-
   $strSQL = "SELECT * FROM member WHERE userid = '".$_SESSION['userid']."' ";
   $objQuery = mysqli_query($objCon,$strSQL);
   $objResult = mysqli_fetch_array($objQuery,MYSQLI_ASSOC);
-
-
   $sqli ="SELECT * from eng";
 	$variable = array();
 	$result = mysqli_query($objCon,$sqli);
 	while($ms=mysqli_fetch_array($result)) {
 		$variable[] = $ms["message"];
   }
-  
-  
   $sqli ="SELECT * from vn";
 	$variable1 = array();
 	$result1 = mysqli_query($objCon,$sqli);
 	while($mss1=mysqli_fetch_array($result1)) {
 		$variable1[] = $mss1["message1"];
   }
-  
-
   ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -64,19 +51,18 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Hammersmith One' rel='stylesheet'>
-<style>
-  img {
-  border-radius: 50%;
-}
-textarea {
+    <style>
+    img {
+    border-radius: 50%;
+    }
+    textarea {
     width: 850px;
     height:auto;
-}
-</style>
-</head>
-<body>
-
-<body>
+    }
+    </style>
+    </head>
+    <body>
+      <body>
           <div class="container">
           <nav class="navbar navbar-default navbar-fixed-top">
           <div class="navbar-header">
@@ -142,9 +128,6 @@ textarea {
           <div class="col-sm-8"> <br>
        <div class = "font"><p>incoterm/ img<p></div>
        <hr>
-
-
-<!-- ********************************************************************************************** -->
 <form action="inco_img.php"  method="POST">
         <center>
         <div class = "well">
@@ -165,10 +148,7 @@ textarea {
                 
         ?>        
         </select></div><br>
-        
-<!-- ********************************************************************************************** -->
 <div class = "fontt"><p>The Seller<p></div>
-<!-- ********************************************************************************************** -->
 <div class="custom-select" style="width:500px;">
         <select  name ="pro_image11">
             <option value="" >--Select--</option>
@@ -184,12 +164,8 @@ textarea {
                 }
                 
         ?>        
-
         </select></div><br>
-      
-<!-- ********************************************************************************************** -->
 <div class = "fontt"><p>First Carrier<p></div>
-<!-- ********************************************************************************************** -->
 <div class="custom-select" style="width:500px;">
         <select  name ="pro_image12">
             <option value="" >--Select--</option>
@@ -205,12 +181,8 @@ textarea {
                 }
                 
         ?>        
-
         </select></div><br>
- 
-<!-- ********************************************************************************************** -->
 <div class = "fontt"><p>Loading Port<p></div>
-<!-- ********************************************************************************************** -->
 <div class="custom-select" style="width:500px;">
         <select  name ="pro_image13">
             <option value="" >--Select--</option>
@@ -228,8 +200,6 @@ textarea {
         ?>        
 
         </select></div><br>
-  
-<!-- ********************************************************************************************** -->
 <div class = "fontt"><p>The Buyer<p></div>
 <div class="custom-select" style="width:500px;">
         <select  name ="pro_image14">
@@ -238,15 +208,12 @@ textarea {
           $sqli = "SELECT * FROM img_logis ";
           $objQuery = mysqli_query($objCon, $sqli);
                 while($row = mysqli_fetch_array($objQuery)){
-        ?>
-                
+        ?>          
                 <option value="<?php echo $row['id']?>"><?php echo $row['pro_image']?></option>
-
         <?php
                 }
                 
         ?>        
-
         </select></div><br>
              
         <center><button type="submit" class="btn btn-primary">submit</button></center> 
@@ -334,7 +301,6 @@ document.addEventListener("click", closeAllSelect);
  </div>
  <div>
   <div>
-    
 <?php
 	mysqli_close($objCon);
 ?>
