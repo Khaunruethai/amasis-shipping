@@ -15,7 +15,6 @@
   body {
     background-image: url("../IMG/home/login1.jpg");
     font-family: 'El Messiri';font-size: 25px;
-
 }
 .padding {
     padding-top: 150px;

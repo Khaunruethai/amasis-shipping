@@ -7,7 +7,6 @@
   $objCon = mysqli_connect($serverName,$userName,$userPassword,$dbName);
   mysqli_set_charset($objCon,"utf8");
 
-//////////////////////////////////////port//////////////////////////////////////////////////////////////
 
 
 $pro_image21 =$_POST["pro_image21"];

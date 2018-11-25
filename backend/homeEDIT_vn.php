@@ -5,8 +5,6 @@
 		echo "Please Login!";
 		exit();
 	}
-
-  
 	if($_SESSION['status'] != "admin")
 	{
 		echo "This page for Admin only!";
@@ -19,8 +17,7 @@
   {
     $message = $_GET["message"];
   }
- 
-	
+
 	$serverName = "us-cdbr-iron-east-01.cleardb.net";
 	$userName = "bc31b9f07b0dea";
 	$userPassword = "5904a8d2";

@@ -24,31 +24,24 @@ else
   mysqli_set_charset($objCon,"utf8");
 /////////////////////////////logo heroku_582a87dceadee92////////////////////////////////////////////
 
-  
 $sqli1 = "SELECT * FROM select_img  where id = 0 ";
 $objQuery1 = mysqli_query($objCon,$sqli1);
   $Result1 = mysqli_fetch_array($objQuery1,MYSQLI_ASSOC);
   $res= $Result1['id_image'];
 
-
 $sqli2 = "SELECT * FROM img_logis where id = $res " ;
 $objQuery2 = mysqli_query($objCon,$sqli2);
 $Result2 = mysqli_fetch_array($objQuery2,MYSQLI_ASSOC);
-/////////////////////////////1////////////////////////////////////////////
+
     $sqli21 = "SELECT * FROM select_img  where id = 11 ";
     $objQuery21 = mysqli_query($objCon,$sqli21);
       $Result21 = mysqli_fetch_array($objQuery21,MYSQLI_ASSOC);
       $res10= $Result21['id_image'];
   
-
     $sqli22 = "SELECT * FROM img_logis where id = $res10 " ;
     $objQuery22 = mysqli_query($objCon,$sqli22);
     $Result22 = mysqli_fetch_array($objQuery22,MYSQLI_ASSOC);
 
-
-
-    
-////////////////////////////////slider 1//////////////////////////////////////////
     $sqli23 = "SELECT * FROM select_img where id = 12 ";
     $objQuery23 = mysqli_query($objCon,$sqli23);
       $Result23 = mysqli_fetch_array($objQuery23,MYSQLI_ASSOC);
@@ -58,7 +51,6 @@ $Result2 = mysqli_fetch_array($objQuery2,MYSQLI_ASSOC);
     $objQuery24 = mysqli_query($objCon,$sqli24);
     $Result24= mysqli_fetch_array($objQuery24,MYSQLI_ASSOC);
 
-    //////////////////////////////slider 2////////////////////////////////////////////
     $sqli25 = "SELECT * FROM select_img where id = 13 ";
     $objQuery25 = mysqli_query($objCon,$sqli25);
       $Result25 = mysqli_fetch_array($objQuery25,MYSQLI_ASSOC);
@@ -68,7 +60,6 @@ $Result2 = mysqli_fetch_array($objQuery2,MYSQLI_ASSOC);
     $objQuery26 = mysqli_query($objCon,$sqli26);
     $Result26= mysqli_fetch_array($objQuery26,MYSQLI_ASSOC);
 
-    ////////////////////////////////slider 3//////////////////////////////////////////
     $sqli27 = "SELECT * FROM select_img where id = 14 ";
     $objQuery27 = mysqli_query($objCon,$sqli27);
       $Result27 = mysqli_fetch_array($objQuery27,MYSQLI_ASSOC);
@@ -78,7 +69,6 @@ $Result2 = mysqli_fetch_array($objQuery2,MYSQLI_ASSOC);
     $objQuery28 = mysqli_query($objCon,$sqli28);
     $Result28= mysqli_fetch_array($objQuery28,MYSQLI_ASSOC);
 
-    //////////////////////////////mission ////////////////////////////////////////////
     $sqli29 = "SELECT * FROM select_img where id = 15 ";
     $objQuery29 = mysqli_query($objCon,$sqli29);
     $Result29 = mysqli_fetch_array($objQuery29,MYSQLI_ASSOC);
@@ -93,7 +83,6 @@ $Result2 = mysqli_fetch_array($objQuery2,MYSQLI_ASSOC);
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
   <title>incoterm</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -256,8 +245,6 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-
-// Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 </script>
 
@@ -297,7 +284,7 @@ document.getElementById("defaultOpen").click();
 <iframe width="300" height="240" src="https://www.youtube.com/embed/SKP8UfSvSoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <center>
-<a href ="https://www.facebook.com/Pacific-Star-Group-Vietnam-745001085551278/"><img src="../IMG/social/facebook.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;</a>
+<a href ="https://www.facebook.com/Pacific-Star-Group-Vietnam-745001085551278/"><img src="../IMG/Social/facebook.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;</a>
 <img src="../IMG/Social/ig.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;
 <img src="../IMG/Social/twitter.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;
 </center><br>
@@ -308,7 +295,6 @@ document.getElementById("defaultOpen").click();
 <br>
 <center><?php echo $var38;?></p></center>
 </footer>
-<!-- WhatsHelp.io widget -->
 <script type="text/javascript">
     (function () {
         var options = {
@@ -322,7 +308,6 @@ document.getElementById("defaultOpen").click();
         var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
     })();
 </script>
-<!-- /WhatsHelp.io widget -->
 </body>
 </html>
 

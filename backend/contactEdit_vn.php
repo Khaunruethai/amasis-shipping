@@ -31,26 +31,18 @@
   $strSQL = "SELECT * FROM member WHERE userid = '".$_SESSION['userid']."' ";
   $objQuery = mysqli_query($objCon,$strSQL);
   $objResult = mysqli_fetch_array($objQuery,MYSQLI_ASSOC);
-
-
   $sqli ="SELECT * from eng";
 	$variable = array();
 	$result = mysqli_query($objCon,$sqli);
 	while($ms=mysqli_fetch_array($result)) {
 		$variable[] = $ms["message"];
-  }
-  
-  
+  } 
   $sqli ="SELECT * from vn";
 	$variable1 = array();
 	$result1 = mysqli_query($objCon,$sqli);
 	while($mss1=mysqli_fetch_array($result1)) {
 		$variable1[] = $mss1["message1"];
 	}
-
-
-
-
   ?>
  <!DOCTYPE html>
 <html lang="en">

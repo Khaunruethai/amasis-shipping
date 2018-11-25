@@ -19,8 +19,6 @@
   {
     $message = $_GET["message"];
   }
- 
-	
 	$serverName = "us-cdbr-iron-east-01.cleardb.net";
 	$userName = "bc31b9f07b0dea";
 	$userPassword = "5904a8d2";
@@ -47,10 +45,6 @@
 	while($mss1=mysqli_fetch_array($result1)) {
 		$variable1[] = $mss1["message1"];
 	}
-
-
-
-
   ?>
 <!DOCTYPE html>
 <title>ADMIN</title>

@@ -22,22 +22,16 @@ else
 
   $objCon = mysqli_connect($serverName,$userName,$userPassword,$dbName);
   mysqli_set_charset($objCon,"utf8");
-/////////////////////////////logo heroku_582a87dceadee92////////////////////////////////////////////
-  
+
     $sqli1 = "SELECT * FROM select_img  where id = 0 ";
     $objQuery1 = mysqli_query($objCon,$sqli1);
       $Result1 = mysqli_fetch_array($objQuery1,MYSQLI_ASSOC);
       $res= $Result1['id_image'];
   
-
     $sqli2 = "SELECT * FROM img_logis where id = $res " ;
     $objQuery2 = mysqli_query($objCon,$sqli2);
     $Result2 = mysqli_fetch_array($objQuery2,MYSQLI_ASSOC);
 
-
-
-    
-////////////////////////////////slider 1//////////////////////////////////////////
     $sqli3 = "SELECT * FROM select_img where id = 1 ";
     $objQuery3 = mysqli_query($objCon,$sqli3);
       $Result3 = mysqli_fetch_array($objQuery3,MYSQLI_ASSOC);
@@ -47,7 +41,6 @@ else
     $objQuery4 = mysqli_query($objCon,$sqli4);
     $Result4= mysqli_fetch_array($objQuery4,MYSQLI_ASSOC);
 
-    //////////////////////////////slider 2////////////////////////////////////////////
     $sqli5 = "SELECT * FROM select_img where id = 3 ";
     $objQuery5 = mysqli_query($objCon,$sqli5);
       $Result5 = mysqli_fetch_array($objQuery5,MYSQLI_ASSOC);
@@ -57,7 +50,6 @@ else
     $objQuery6 = mysqli_query($objCon,$sqli6);
     $Result6= mysqli_fetch_array($objQuery6,MYSQLI_ASSOC);
 
-    ////////////////////////////////slider 3//////////////////////////////////////////
     $sqli7 = "SELECT * FROM select_img where id = 4 ";
     $objQuery7 = mysqli_query($objCon,$sqli7);
       $Result7 = mysqli_fetch_array($objQuery7,MYSQLI_ASSOC);
@@ -67,7 +59,6 @@ else
     $objQuery8 = mysqli_query($objCon,$sqli8);
     $Result8= mysqli_fetch_array($objQuery8,MYSQLI_ASSOC);
 
-    //////////////////////////////mission ////////////////////////////////////////////
     $sqli9 = "SELECT * FROM select_img where id = 5 ";
     $objQuery9 = mysqli_query($objCon,$sqli9);
     $Result9 = mysqli_fetch_array($objQuery9,MYSQLI_ASSOC);
@@ -77,7 +68,6 @@ else
     $objQuery10 = mysqli_query($objCon,$sqli10);
     $Result10= mysqli_fetch_array($objQuery10,MYSQLI_ASSOC);
 
-    /////////////////////////////////project 1/////////////////////////////////////////
     $sqli11 = "SELECT * FROM select_img where id = 6 ";
     $objQuery11 = mysqli_query($objCon,$sqli11);
       $Result11 = mysqli_fetch_array($objQuery11,MYSQLI_ASSOC);
@@ -87,8 +77,6 @@ else
     $objQuery12 = mysqli_query($objCon,$sqli12);
     $Result12= mysqli_fetch_array($objQuery12,MYSQLI_ASSOC);
 
-
-    //////////////////////////////project 2////////////////////////////////////////////
     $sqli13 = "SELECT * FROM select_img where id = 7 ";
     $objQuery13 = mysqli_query($objCon,$sqli13);
       $Result13 = mysqli_fetch_array($objQuery13,MYSQLI_ASSOC);
@@ -98,7 +86,6 @@ else
     $objQuery14 = mysqli_query($objCon,$sqli14);
     $Result14= mysqli_fetch_array($objQuery14,MYSQLI_ASSOC);
 
-    //////////////////////////////////project 3////////////////////////////////////////
     $sqli15 = "SELECT * FROM select_img where id = 8 ";
     $objQuery15 = mysqli_query($objCon,$sqli15);
       $Result15 = mysqli_fetch_array($objQuery15,MYSQLI_ASSOC);
@@ -108,7 +95,6 @@ else
     $objQuery16 = mysqli_query($objCon,$sqli16);
     $Result16= mysqli_fetch_array($objQuery16,MYSQLI_ASSOC);
 
-        ///////////////////////////////profile amy///////////////////////////////////////////
     $sqli17 = "SELECT * FROM select_img where id = 9 ";
     $objQuery17 = mysqli_query($objCon,$sqli17);
       $Result17 = mysqli_fetch_array($objQuery17,MYSQLI_ASSOC);
@@ -118,9 +104,6 @@ else
     $objQuery18 = mysqli_query($objCon,$sqli18);
     $Result18= mysqli_fetch_array($objQuery18,MYSQLI_ASSOC);
 
-
-        
-            /////////////////////////////profile vinh/////////////////////////////////////////////
     $sqli19 = "SELECT * FROM select_img where id = 10 ";
     $objQuery19 = mysqli_query($objCon,$sqli19);
       $Result19 = mysqli_fetch_array($objQuery19,MYSQLI_ASSOC);
@@ -137,7 +120,6 @@ else
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
   <title>HOME</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -376,7 +358,7 @@ else
 <iframe width="300" height="240" src="https://www.youtube.com/embed/SKP8UfSvSoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 <center>
-<a href ="https://www.facebook.com/Pacific-Star-Group-Vietnam-745001085551278/"><img src="../IMG/social/facebook.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;</a>
+<a href ="https://www.facebook.com/Pacific-Star-Group-Vietnam-745001085551278/"><img src="../IMG/Social/facebook.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;</a>
 <img src="../IMG/Social/ig.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;
 <img src="../IMG/Social/twitter.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;
 </center><br>

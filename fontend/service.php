@@ -23,33 +23,26 @@ else
   mysqli_set_charset($objCon,"utf8");
 /////////////////////////////logo heroku_582a87dceadee92////////////////////////////////////////////
 
-/////////////////////////////1////////////////////////////////////////////
-  
-$sqli1 = "SELECT * FROM select_img  where id = 0 ";
-$objQuery1 = mysqli_query($objCon,$sqli1);
-  $Result1 = mysqli_fetch_array($objQuery1,MYSQLI_ASSOC);
-  $res= $Result1['id_image'];
+      $sqli1 = "SELECT * FROM select_img  where id = 0 ";
+      $objQuery1 = mysqli_query($objCon,$sqli1);
+      $Result1 = mysqli_fetch_array($objQuery1,MYSQLI_ASSOC);
+      $res= $Result1['id_image'];
 
 
-$sqli2 = "SELECT * FROM img_logis where id = $res " ;
-$objQuery2 = mysqli_query($objCon,$sqli2);
-$Result2 = mysqli_fetch_array($objQuery2,MYSQLI_ASSOC);
-/////////////////////////////1////////////////////////////////////////////
-  
-$sqli31 = "SELECT * FROM select_img where id = 16 ";
-$objQuery31 = mysqli_query($objCon,$sqli31);
-  $Result31 = mysqli_fetch_array($objQuery31,MYSQLI_ASSOC);
-  $res15= $Result31['id_image'];
-  
+      $sqli2 = "SELECT * FROM img_logis where id = $res " ;
+      $objQuery2 = mysqli_query($objCon,$sqli2);
+      $Result2 = mysqli_fetch_array($objQuery2,MYSQLI_ASSOC);
+
+      $sqli31 = "SELECT * FROM select_img where id = 16 ";
+      $objQuery31 = mysqli_query($objCon,$sqli31);
+      $Result31 = mysqli_fetch_array($objQuery31,MYSQLI_ASSOC);
+      $res15= $Result31['id_image'];
+
 
     $sqli32 = "SELECT * FROM img_logis where id = $res15 " ;
     $objQuery32 = mysqli_query($objCon,$sqli32);
     $Result32 = mysqli_fetch_array($objQuery32,MYSQLI_ASSOC);
 
-
-
-    
-////////////////////////////////slider 1//////////////////////////////////////////
     $sqli33 = "SELECT * FROM select_img where id = 17 ";
     $objQuery33 = mysqli_query($objCon,$sqli33);
       $Result33 = mysqli_fetch_array($objQuery33,MYSQLI_ASSOC);
@@ -59,7 +52,6 @@ $objQuery31 = mysqli_query($objCon,$sqli31);
     $objQuery34 = mysqli_query($objCon,$sqli34);
     $Result34= mysqli_fetch_array($objQuery34,MYSQLI_ASSOC);
 
-    //////////////////////////////slider 2////////////////////////////////////////////
     $sqli35 = "SELECT * FROM select_img where id = 18 ";
     $objQuery35 = mysqli_query($objCon,$sqli35);
       $Result35 = mysqli_fetch_array($objQuery35,MYSQLI_ASSOC);
@@ -69,17 +61,15 @@ $objQuery31 = mysqli_query($objCon,$sqli31);
     $objQuery36 = mysqli_query($objCon,$sqli36);
     $Result36= mysqli_fetch_array($objQuery36,MYSQLI_ASSOC);
 
-    ////////////////////////////////slider 3//////////////////////////////////////////
     $sqli37 = "SELECT * FROM select_img where id = 19 ";
     $objQuery37 = mysqli_query($objCon,$sqli37);
-      $Result37 = mysqli_fetch_array($objQuery37,MYSQLI_ASSOC);
-      $res18= $Result37['id_image'];
+    $Result37 = mysqli_fetch_array($objQuery37,MYSQLI_ASSOC);
+    $res18= $Result37['id_image'];
 
     $sqli38 = "SELECT * FROM img_logis  where id =$res18" ;
     $objQuery38 = mysqli_query($objCon,$sqli38);
     $Result38= mysqli_fetch_array($objQuery38,MYSQLI_ASSOC);
 
-    //////////////////////////////mission ////////////////////////////////////////////
     $sqli39 = "SELECT * FROM select_img where id = 20";
     $objQuery39 = mysqli_query($objCon,$sqli39);
     $Result39 = mysqli_fetch_array($objQuery39,MYSQLI_ASSOC);
@@ -89,22 +79,20 @@ $objQuery31 = mysqli_query($objCon,$sqli31);
     $objQuery40 = mysqli_query($objCon,$sqli40);
     $Result40= mysqli_fetch_array($objQuery40,MYSQLI_ASSOC);
 
-        //////////////////////////////mission ////////////////////////////////////////////
-        $sqli41 = "SELECT * FROM select_img where id = 21";
-        $objQuery41 = mysqli_query($objCon,$sqli41);
-        $Result41 = mysqli_fetch_array($objQuery41,MYSQLI_ASSOC);
-          $res20= $Result41['id_image'];
-    
-        $sqli42 = "SELECT * FROM img_logis  where id =$res20" ;
-        $objQuery42 = mysqli_query($objCon,$sqli42);
-        $Result42= mysqli_fetch_array($objQuery42,MYSQLI_ASSOC);
-    
+    $sqli41 = "SELECT * FROM select_img where id = 21";
+    $objQuery41 = mysqli_query($objCon,$sqli41);
+    $Result41 = mysqli_fetch_array($objQuery41,MYSQLI_ASSOC);
+      $res20= $Result41['id_image'];
+
+    $sqli42 = "SELECT * FROM img_logis  where id =$res20" ;
+    $objQuery42 = mysqli_query($objCon,$sqli42);
+    $Result42= mysqli_fetch_array($objQuery42,MYSQLI_ASSOC);
+
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
   <title>service</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -116,7 +104,7 @@ $objQuery31 = mysqli_query($objCon,$sqli31);
   <link rel="stylesheet" href="../css/stylehome.css">
   <link rel="stylesheet" href="../css/font.css">
   <link rel="stylesheet" href="../css/service.css">
-  	<link rel="stylesheet" href="../css/style.css" type="text/css">
+  <link rel="stylesheet" href="../css/style.css" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Bad Script' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Farsan' rel='stylesheet'>
@@ -279,9 +267,9 @@ $objQuery31 = mysqli_query($objCon,$sqli31);
         <footer>
 <div class="col-sm-6">
 <iframe width="300" height="240" src="https://www.youtube.com/embed/SKP8UfSvSoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <center>
-<a href ="https://www.facebook.com/Pacific-Star-Group-Vietnam-745001085551278/"><img src="../IMG/social/facebook.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;</a>
+</div>
+<center>
+<a href ="https://www.facebook.com/Pacific-Star-Group-Vietnam-745001085551278/"><img src="../IMG/Social/facebook.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;</a>
 <img src="../IMG/Social/ig.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;
 <img src="../IMG/Social/twitter.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;
 </center><br>

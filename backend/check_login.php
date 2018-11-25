@@ -26,8 +26,6 @@
 			{
 				header("location:admin.php");
 			}
-
 	}
-	
 	mysqli_close($objCon);
 ?>
