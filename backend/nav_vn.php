@@ -88,7 +88,7 @@ textarea {
           <span class="icon-bar"></span>                        
           </button>
           <div class="div">
-          <a class="navbar-brand" href="../fontend/home.php">
+          <a class="navbar-brand" href="../fontend/Home.php">
           <img src=../IMG/home/11.jpg   alt="Avatar" style="width:60px"></a>
           </a>
           </div>

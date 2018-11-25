@@ -32,7 +32,7 @@ img {
 <div class="padding">
   <span class="w3-tag w3-padding w3-round-large  w3-center" style="background-color:#708090;">
 <form name="form1" method="post" action="check_login.php">
-<img src=../IMG/home/11.jpg   alt="Avatar" style="width:100px" ></a><br><h1>ADMIN</h1>
+<img src=../IMG/home/11.jpg   alt="Avatar" style="width:120px" ></a><br><h1>ADMIN</h1>
 <div class="form-group row">
 <div class="col-sm-2">
        <i class="fa fa-users" style="font-size:20px" >&nbsp;:</i></div>
