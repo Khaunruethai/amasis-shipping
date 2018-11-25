@@ -1,0 +1,135 @@
+/* Website template by freewebsitetemplates.com */
+@font-face {
+	font-family: 'SancreekRegular';
+	src: url('../fonts/sancreek-regular-webfont.eot');
+	src: url('../fonts/sancreek-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/sancreek-regular-webfont.woff') format('woff'), url('../fonts/sancreek-regular-webfont.ttf') format('truetype'), url('../fonts/sancreek-regular-webfont.svg#SancreekRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+body {
+	background-color: #123456;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+
+/*------------------------------ CONTENTS ------------------------------*/
+#body {
+	background-color: #2a4d6e;
+	border-bottom: 1px solid #161616;
+	border-top: 1px solid #494949;
+	margin: 0 0 30px;
+}
+#contents {
+	width: 960px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+#articles {
+	display: inline-block;
+	list-style: none;
+	margin: 0 30px;
+	padding: 0;
+}
+#articles li {
+	float: left;
+	width: 288px;
+	margin-left: 16px;
+	text-align: center;
+}
+#articles li:first-child {
+	margin-left: 0px;
+}
+#articles li h1 {
+	background: url(../images/bg-heading2.png) no-repeat center;
+	color: #fff;
+	font-family: 'SancreekRegular';
+	height: 60px;
+	line-height: 60px;
+	margin: 0 0 24px;
+	text-transform: uppercase;
+}
+#articles li p {
+	color: #fcf9f9;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 15px 24px;
+}
+#articles li p a {
+	color: #717272;
+}
+#articles li p a:hover {
+	color: #b6b6b6;
+}
+
+ul#about-list li {
+	color: #fbfaa7;
+	list-style: square inside;
+}
+ul#about-list li a, ul#archives li a {
+	color: #fff;
+	font-size: 15px;
+	line-height: 24px;
+	text-decoration: none;
+}
+ul#about-list li a:hover, ul#archives li a:hover {
+	color: #b5b5b5;
+}
+#main {
+	width: 650px;
+	margin: 0 10px 0 30px;
+}
+#main p {
+	color: #fff;
+	font-size: 15px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 24px;
+	text-align: justify;
+}
+#main p a {
+	color: #fff;
+	text-shadow: 1px 0px #151c22, 0px -1px #151c22, -1px 0px #151c22, 0px 1px #151c22;
+}
+#main p a:hover {
+	color: #b6b6b6;
+}
+/** Blogs **/
+ul#blogs, #sidebar ul.contacts {
+	background: url(../images/border-latest-post.gif) repeat-x left bottom;
+	margin: 0 0 22px;
+	padding: 0 0 2px;
+}
+ul#blogs li, #sidebar ul.contacts li {
+	background: url(../images/border-latest-post.gif) repeat-x left top;
+	padding: 26px 0 0;
+}
+ul#blogs li:first-child, #sidebar ul.contacts li:first-child {
+	background: none;
+	padding-top: 0;
+}
+ul#blogs li span, #sidebar ul.contacts li span {
+	color: #81888e;
+	font-size: 15px;
+	line-height: 24px;
+}
+ul#blogs li a, #sidebar ul.contacts li a {
+	color: #fff;
+	display: block;
+	font-size: 15px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 24px;
+	text-align: justify;
+	text-decoration: none;
+}
+#sidebar ul.contacts li a {
+	font-size: 14px;
+	text-align: left;
+}
+#sidebar ul.contacts li .num {
+	font-size: 0.843em;
+}
+ul#blogs li a:hover, #sidebar ul.contacts li a:hover {
+	color: #b5b5b5;
+}
