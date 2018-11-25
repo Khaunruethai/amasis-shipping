@@ -1,5 +1,5 @@
 <?php
-   $con = mysqli_connect("localhost", "root", "","amasis");
+   $con = mysqli_connect("us-cdbr-iron-east-01.cleardb.net", "bc31b9f07b0dea", "","heroku_582a87dceadee92");
    mysqli_set_charset($con, "utf8");
    
    $id = $_POST["id"];

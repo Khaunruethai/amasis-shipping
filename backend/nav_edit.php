@@ -21,10 +21,10 @@
   }
  
 	
-	$serverName = "localhost";
-	$userName = "root";
-	$userPassword = "";
-	$dbName = "amasis";
+	$serverName = "us-cdbr-iron-east-01.cleardb.net";
+	$userName = "bc31b9f07b0dea";
+	$userPassword = "5904a8d2";
+	$dbName = "heroku_582a87dceadee92";
 
   $objCon = mysqli_connect($serverName,$userName,$userPassword,$dbName);
   mysqli_set_charset($objCon,"utf8");
@@ -162,7 +162,7 @@ textarea {
           <button type="submit" class="btn btn-primary">submit</button> 
           </div>
           <footer class="container-fluid text-center">
-<p><font color="#000">Copyright @ 2018 Amasis Shipping co.,ltd</font></p>
+<p><font color="#000">Copyright @ 2018 heroku_582a87dceadee92 Shipping co.,ltd</font></p>
 </footer>
 </body>
 </html>

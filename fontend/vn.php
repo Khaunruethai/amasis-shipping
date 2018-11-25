@@ -1,9 +1,9 @@
 <?php
-	$serverName = "localhost";
-	$userName = "root";
-	$userPassword = "";
-	$dbName1 = "amasis";
-	$dbname = mysqli_connect($serverName,$userName,$userPassword,$dbName1);
+	$serverName = "us-cdbr-iron-east-01.cleardb.net";
+	$userName = "bc31b9f07b0dea";
+	$userPassword = "5904a8d2";
+	$dbName1 = "heroku_582a87dceadee92";
+	$dbname = mysqli_connect("us-cdbr-iron-east-01.cleardb.net","bc31b9f07b0dea","5904a8d2","heroku_582a87dceadee92");
 	mysqli_set_charset($dbname,"utf8");
 
 	$sqli ="SELECT * from vn ";

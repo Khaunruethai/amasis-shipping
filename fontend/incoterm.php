@@ -14,15 +14,15 @@ else
 }
 ?>
 <?php
-	$serverName = "localhost";
-	$userName = "root";
-	$userPassword = "";
-  $dbName = "amasis";
+	$serverName = "us-cdbr-iron-east-01.cleardb.net";
+	$userName = "bc31b9f07b0dea";
+	$userPassword = "5904a8d2";
+  $dbName = "heroku_582a87dceadee92";
 
 
   $objCon = mysqli_connect($serverName,$userName,$userPassword,$dbName);
   mysqli_set_charset($objCon,"utf8");
-/////////////////////////////logo amasis////////////////////////////////////////////
+/////////////////////////////logo heroku_582a87dceadee92////////////////////////////////////////////
 
   
 $sqli1 = "SELECT * FROM select_img  where id = 0 ";
