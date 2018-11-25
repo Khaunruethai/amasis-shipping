@@ -377,8 +377,8 @@ else
             </div>
 <center>
 <a href ="https://www.facebook.com/Pacific-Star-Group-Vietnam-745001085551278/"><img src="../IMG/social/facebook.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;</a>
-<img src="../IMG/social/ig.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;
-<img src="../IMG/social/twitter.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;
+<img src="../IMG/Social/ig.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;
+<img src="../IMG/Social/twitter.png"  width="30" height="30"> &nbsp;&nbsp;&nbsp;
 </center><br>
 <i class="material-icons">&#xe8b4;</i>&nbsp;&nbsp;&nbsp;<?php echo $var74;?><br>
 <i class="material-icons">&#xe0cd;</i>&nbsp;&nbsp;&nbsp;<?php echo $var78;?><br>
