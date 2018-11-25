@@ -154,7 +154,7 @@ $objQuery31 = mysqli_query($objCon,$sqli31);
     <div class="collapse navbar-collapse" id="myNavbar">
            <ul class="nav navbar-nav navbar-right"><br>
                 
-               <li><a href="INCOTERM.php"><?php echo $var4;?></a></li>
+                 <li><a href="incoterm.php"><?php echo $var4;?></a></li>
                <li><a href="service.php"><?php echo $var5;?></a></li>
                <li><a  href="contact.php"><?php echo $var6;?></a></li>
                <li><a  href="portfolio.php"><?php echo $var7;?></a></li>
