@@ -159,6 +159,7 @@ textarea {
           <textarea type="text3"  name="message203"style="height:50px"><?php echo $variable[7];?></textarea><br><br>
           <button type="submit" class="btn btn-primary">submit</button> 
           </div>
+          </form>
           <footer class="container-fluid text-center">
           <p><font color="#000">Copyright @ 2018 Amasis Shipping co.,ltd</font></p>
 </footer>
