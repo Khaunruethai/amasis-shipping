@@ -54,5 +54,8 @@ img {
 </div>
 </div>
 </center>
+<?php
+	mysqli_close($objCon);
+?>
 </body>
 </html>
