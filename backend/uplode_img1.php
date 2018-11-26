@@ -168,9 +168,6 @@ textarea {
           <td><?php echo $row1['pro_image'];?><br></td>
           <td><a href="./del_img.php?id=<?php echo $row1["id"]; ?>">delete</a></td>
         </tr>
-        <footer class="container-fluid text-center">
-        <p><font color="#000">Copyright @ 2018 Amasis Shipping co.,ltd</font></p>
-</footer>
 <?php
 }
 ?>
