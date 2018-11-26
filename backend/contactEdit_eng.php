@@ -102,7 +102,7 @@ textarea {
           <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown">edit en<span class="caret"></span></a>
           <ul class="dropdown-menu">
-          <li><a  href="admin.php">home</a></li>
+          <li><a  href="home_en.php">home</a></li>
           <li><a  href="incotermEdit_eng.php">incoterm</a></li>
           <li><a  href="serviceEdit_eng.php">service</a></li>
           <li><a  href="contactEdit_eng.php">contact</a></li>
@@ -152,6 +152,8 @@ textarea {
           </div>
         </div>
         <div class="col-sm-1"></div>
+      </div>
+      </div>
       </div>
       </div>
       <footer class="container-fluid text-center">
