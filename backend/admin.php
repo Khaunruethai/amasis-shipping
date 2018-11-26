@@ -155,6 +155,7 @@
         $res = mysqli_query( $objCon, $query);
         while ($row = mysqli_fetch_array($res)){
 	?>
+
 		<tr>
           <td><?php echo $row["id"]; ?></td>
           <td><?php echo $row["Firstname"]; ?></td>
