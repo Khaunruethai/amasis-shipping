@@ -158,7 +158,8 @@ textarea {
 <?php
   $mysqli ="SELECT * from img_logis";
   $result2 = mysqli_query($objCon,$mysqli);
-  while ($row1 = mysqli_fetch_array($result2)){
+  while ($row1 = mysqli_fetch_array($result2))
+  {
 ?>
 
 
@@ -172,9 +173,6 @@ textarea {
 }
 ?>
 </div>
-<?php
-	mysqli_close($objCon);
-?>
 </body>
 </html>
 
