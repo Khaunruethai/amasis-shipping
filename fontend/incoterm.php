@@ -168,8 +168,8 @@ body {
   <button class="tablinks" onclick="openCity(event, '7')"><font color="#fff"><?php echo $var53;?></font></button>
   <button class="tablinks" onclick="openCity(event, '8')"><font color="#fff"><?php echo $var55;?></font></button>
   <button class="tablinks" onclick="openCity(event, '9')"><font color="#fff"><?php echo $var57;?></font></button>
-  <button class="tablinks" onclick="openCity(event, '10')"><font color="#fff"><?php echo $var49;?></font></button>
-  <button class="tablinks" onclick="openCity(event, '11')"><font color="#fff"><?php echo $var51;?></font></button>
+  <button class="tablinks" onclick="openCity(event, '10')"><font color="#fff"><?php echo $var59;?></font></button>
+  <button class="tablinks" onclick="openCity(event, '11')"><font color="#fff"><?php echo $var61;?></font></button>
 </div>
 <div class="col-sm-6">
 <div id="1" class="tabcontent">
