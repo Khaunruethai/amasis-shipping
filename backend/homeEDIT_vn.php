@@ -185,17 +185,13 @@ textarea {
           <textarea  type="text30" name="message30"  style="height:50px"><?php echo $variable1[33];?></textarea><br><br>
           <div class = "fontt"><p>Telephone number</p> </div>
           <textarea  type="text31" name="message31"  style="height:50px"><?php echo $variable1[34];?></textarea><br><br>
-
           <button type="submit" class="btn btn-primary">submit</button> 
           </form>
-
-
           </div>
           <div class="col-sm-2"></div>
           </div>
           </div>
           </div>
-
           </div>
           </div>
           </div>

@@ -145,7 +145,6 @@ textarea {
            <textarea id="text75" name="message75" style="height:50px"><?php echo $variable[78];?></textarea><br><br>
 					 <div class = "fontt"><p> Fax</p> </div>
            <textarea id="text76" name="message76" style="height:50px"><?php echo $variable[80];?></textarea><br><br>
-
            <button type="submit" class="btn btn-primary">submit</button>
            </form>
            </div> 

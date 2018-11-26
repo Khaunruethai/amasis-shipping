@@ -181,21 +181,18 @@ textarea {
            <div class = "fontt"><p>DDP (Delivered Duty Paid)</p></div>
            <textarea   type="text55"name="message55" style="height:100px"><?php echo $variable1[62];?></textarea><br><br>
            <button type="submit" class="btn btn-primary">submit</button>
-
-
-</form>
- 
-</div>
-<div class="col-sm-2"></div>
-</div>
-</div> 
-</div>
-    </div>
-    <footer class="container-fluid text-center">
-    <p><font color="#000">Copyright @ 2018 Amasis Shipping co.,ltd</font></p>
-</footer>
-<?php
-	mysqli_close($objCon);
-?>
-</body>
-</html>
+          </form>
+          </div>
+          <div class="col-sm-2"></div>
+          </div>
+          </div> 
+          </div>
+              </div>
+              <footer class="container-fluid text-center">
+              <p><font color="#000">Copyright @ 2018 Amasis Shipping co.,ltd</font></p>
+          </footer>
+          <?php
+            mysqli_close($objCon);
+          ?>
+          </body>
+          </html>
