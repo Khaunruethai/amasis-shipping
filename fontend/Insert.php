@@ -17,5 +17,5 @@
    VALUES('','$FirstName','$LastName','$Country','$Email','$Subject')";
    mysqli_query($objcon,$query);
 
-   header("Location:./contact.php");
+   header("Location:contact.php");
 ?>
