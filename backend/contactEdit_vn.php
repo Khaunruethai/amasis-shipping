@@ -120,7 +120,7 @@ textarea {
           <li><a  href="serviceEdit_vn.php">service</a></li>
           <li><a  href="contactEdit_vn.php">contact</a></li>
           </ul>
-          <li><a href="uplode_img1.php">uplode image</a></li>
+          <li><a href="uplode_img1.php">upload image</a></li>
           </li>
           <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown">edit image<span class="caret"></span></a>
@@ -157,10 +157,12 @@ textarea {
         <div class="col-sm-1"></div>
       </div>
       </div>
+      </div>
+      </div>
       <footer class="container-fluid text-center">
       <p><font color="#000">Copyright @ 2018 Amasis Shipping co.,ltd</font></p>
-</footer>
-<?php
+      </footer>
+      <?php
 	mysqli_close($objCon);
 ?>
 </body>

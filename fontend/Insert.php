@@ -13,6 +13,7 @@
    $Country= $_POST["Country"];
    $Email = $_POST["Email"];
    $Subject = $_POST["Subject"];
+   
    $query = "INSERT INTO contact_us (id,FirstName,LastName,Country,Email,Subject)
    VALUES('','$FirstName','$LastName','$Country','$Email','$Subject')";
    mysqli_query($objcon,$query);

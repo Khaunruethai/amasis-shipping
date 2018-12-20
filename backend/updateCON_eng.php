@@ -14,9 +14,7 @@
   WHERE id=75";
   mysqli_query($objCon,$sqli73); 
 
- 
 
-  
 //////////////////////////
   $message74= $_POST["message74"];
 
@@ -31,7 +29,6 @@
  mysqli_query($objCon,$sqli75); 
 
 
-////////////////////////////////
 
     $message76= $_POST["message76"];
     $sqli76 ="UPDATE eng SET  message= '$message76' 
@@ -41,9 +38,6 @@
 
 
  
- 
-
-
   header("Location:../fontend/contact.php");
 
 

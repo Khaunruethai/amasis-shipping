@@ -122,7 +122,7 @@ textarea {
           <li><a  href="serviceEdit_vn.php">service</a></li>
           <li><a  href="contactEdit_vn.php">contact</a></li>
           </ul>
-          <li><a href="uplode_img1.php">uplode image</a></li>
+          <li><a href="uplode_img1.php">upload image</a></li>
           </li>
           <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown">edit image<span class="caret"></span></a>
@@ -139,11 +139,11 @@ textarea {
           <div class="row">
           <div class="col-sm-2"></div>
           <div class="col-sm-8"> <br>
-       <div class = "font"><p>uplode/imade<p></div>
+       <div class = "font"><p>upload/image<p></div>
        <hr>
 
   <center> <div class="alert alert-success">
-  <div class = "ddd">uplode image<p></div>
+  <div class = "ddd">upload image<p></div>
 <form  method="post" action="uplode_img.php" enctype="multipart/form-data">
 	<input type="file" name="pro_image"><br>
   <button type="submit" class="btn btn-success">submit</button></center>

@@ -7,10 +7,6 @@
   $objCon = mysqli_connect($serverName,$userName,$userPassword,$dbName);
   mysqli_set_charset($objCon,"utf8");
 
-//////////////////////////////////////vvvvnnnnn home//////////////////////////////////////////
-
-
-
 $message16 = $_POST["message16"];
 echo $message16;
 

@@ -121,7 +121,7 @@
           <li><a  href="serviceEdit_vn.php">service</a></li>
           <li><a  href="contactEdit_vn.php">contact</a></li>
           </ul>
-          <li><a href="uplode_img1.php">uplode image</a></li>
+          <li><a href="uplode_img1.php">upload image</a></li>
           </li>
           <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown">edit image<span class="caret"></span></a>

@@ -7,15 +7,10 @@
   $objCon = mysqli_connect($serverName,$userName,$userPassword,$dbName);
   mysqli_set_charset($objCon,"utf8");
 
-
-
   $message77 = $_POST["message77"];
   $sqli77 ="UPDATE vn SET  message1= '$message77' 
   WHERE id=75";
   mysqli_query($objCon,$sqli77); 
-
- 
-
 
 //////////////////////////
   $message78 = $_POST["message78"];

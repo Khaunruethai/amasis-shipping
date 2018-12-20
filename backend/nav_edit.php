@@ -145,7 +145,7 @@ textarea {
           <div class="row">
           <div class="col-sm-2"></div>
           <div class="col-sm-8"> <br>
-       <div class = "font"><p>uplode/navbar<p></div>
+       <div class = "font"><p>upload/navbar<p></div>
        <hr>
        <div class="container" class="responsive ">
           <form action="update_nav.php"method="POST">

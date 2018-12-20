@@ -130,7 +130,7 @@ textarea {
           <li><a  href="serviceEdit_vn.php">service</a></li>
           <li><a  href="contactEdit_vn.php">contact</a></li>
           </ul>
-          <li><a href="uplode_img1.php">uplode image</a></li>
+          <li><a href="uplode_img1.php">upload image</a></li>
           </li>
           <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown">edit image<span class="caret"></span></a>
@@ -147,7 +147,7 @@ textarea {
           <div class="row">
           <div class="col-sm-2"></div>
           <div class="col-sm-8"> <br>
-       <div class = "font"><p>uplode/navbar<p></div>
+       <div class = "font"><p>upload/navbar<p></div>
        <hr>
        <div class="container" class="responsive ">
           <form action="update_nav_vn.php"method="POST">
