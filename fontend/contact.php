@@ -50,6 +50,10 @@
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
           <link rel="stylesheet" href="../dist/sweetalert2.all.js">
+          <link rel="stylesheet" href="../dist/sweetalert2.all.min.js">
+          <link rel="stylesheet" href="../dist/sweetalert2.all.css">
+          <link rel="stylesheet" href="../dist/sweetalert2.all.js">
+          <link rel="stylesheet" href="../dist/sweetalert2.min.css">
           <style>
           #map {
           height: 50%;
