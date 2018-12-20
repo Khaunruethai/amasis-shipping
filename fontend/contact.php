@@ -117,9 +117,10 @@
           <div class="col-md-2">
           </div>
           <div class="row">
-          <div class="col-sm-8"></div>
+          <div class="col-sm-6"></div>
           <div class="col-sm-4">
           <button type="submit" class="btn btn-primary">sent</button></div></div>
+          <div class="col-sm-2">
           </form>
           </div>
           </div>
