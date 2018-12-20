@@ -119,7 +119,7 @@
           <div class="row">
           <div class="col-sm-7"></div>
           <div class="col-sm-3">
-          <button type="submit" class="btn btn-primary">sent</button></div></div>
+          <button type="submit" class="btn btn-primary" onclick="Invite()">sent</button></div></div>
           <div class="col-sm-2">
           </form>
           </div>
@@ -168,6 +168,21 @@
           s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
           })();
+          </script>
+
+          <script>
+          function Invite(){
+		swal({
+				title:"lt's always better together! Send this team invite link to your teammates.",
+				confirmButtonText: 'COPY',
+				confirmButtonColor: "#d70026",
+				showCloseButton: true,
+				background: '#434343',
+				padding:'2rem',
+				html:'https://tog.com/xxxxxxx'
+			});	 
+    	$(".swal2-container.in").css('background-color', 'rgba(43, 165, 137, 0.45)');//changes the color of the overlay
+	}
           </script>
           </body>
           </html>
