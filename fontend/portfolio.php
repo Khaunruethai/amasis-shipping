@@ -649,7 +649,6 @@ else
     <img src="../img_logis/<?php echo $Result76['pro_image'];?>" style="width:100%">
     <img src="../img_logis/<?php echo $Result78['pro_image'];?>" style="width:100%">
     <img src="../img_logis/<?php echo $Result80['pro_image'];?>" style="width:100%">
-    <img src="../img_logis/<?php echo $Result82['pro_image'];?>" style="width:100%">
   </div>
   <div class="column">
     <img src="../img_logis/<?php echo $Result84['pro_image'];?>" style="width:100%">
