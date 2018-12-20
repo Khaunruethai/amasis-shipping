@@ -108,11 +108,11 @@
           </div>
           <div class="col-md-4">
           <form action="Insert.php" name="frmAdd" method="post">
-          <input type="text"id="Subject" name="FirstName" placeholder="Your name.."style="height:35px">
-          <input type="text" id="Subject" name="LastName" placeholder="Your last name.."style="height:35px"><br><br>
-          <input type="text"id="Subject" name="Country" placeholder="Country.."style="height:35px">
-          <input type="text" id="Subject" name="Email" placeholder="E-mail.."style="height:35px"><br><br>
-          <textarea type="text" id="Subject" name="Subject" placeholder="Write something.."style="width:345px"></textarea>
+          <input type="text" name="FirstName" placeholder="Your name.."style="height:35px">
+          <input type="text"  name="LastName" placeholder="Your last name.."style="height:35px"><br><br>
+          <input type="text" name="Country" placeholder="Country.."style="height:35px">
+          <input type="text"  name="Email" placeholder="E-mail.."style="height:35px"><br><br>
+          <textarea type="text" name="Subject" placeholder="Write something.."style="width:345px"></textarea>
           </div>
           <div class="col-md-2">
           </div>
