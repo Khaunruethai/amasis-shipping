@@ -213,15 +213,6 @@ else
                       $objQuery80 = mysqli_query($objCon,$sqli80);
                       $Result80= mysqli_fetch_array($objQuery80,MYSQLI_ASSOC);
 
-                      $sqli81 = "SELECT * FROM select_img where id = 41 ";
-                      $objQuery81 = mysqli_query($objCon,$sqli81);
-                      $Result81 = mysqli_fetch_array($objQuery81,MYSQLI_ASSOC);
-                      $res40= $Result81['id_image'];
-
-                      $sqli82 = "SELECT * FROM img_logis  where id =$res40" ;
-                      $objQuery82 = mysqli_query($objCon,$sqli82);
-                      $Result82= mysqli_fetch_array($objQuery82,MYSQLI_ASSOC);
-
                       $sqli83 = "SELECT * FROM select_img where id = 42 ";
                       $objQuery83 = mysqli_query($objCon,$sqli83);
                       $Result83 = mysqli_fetch_array($objQuery83,MYSQLI_ASSOC);
