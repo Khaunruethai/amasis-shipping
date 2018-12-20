@@ -113,9 +113,10 @@
           <input type="text"id="Subject" name="Country" placeholder="Country.."style="height:35px">
           <input type="text" id="Subject" name="Email" placeholder="E-mail.."style="height:35px"><br><br>
           <textarea type="text" id="Subject" name="Subject" placeholder="Write something.."style="width:345px"></textarea>
+          <button type="submit" class="btn btn-primary">sent</button>
           <div class="row">
           <div class="col-md-12 form-group">
-          <button type="submit" class="btn btn-primary">sent</button>
+          
           </div>
           </div>
           </form>
