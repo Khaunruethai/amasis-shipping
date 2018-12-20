@@ -57,7 +57,6 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Hammersmith One' rel='stylesheet'> 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <style>
   img {
   border-radius: 50%;
@@ -90,7 +89,7 @@
           <div class="row content">
           <div class="col-sm-2 sidenav">
           <ul class="nav nav-pills nav-stacked"><br><br><br><br><br>
-          <li><a href="admin.php"><i class="material-icons" style="font-size:48px;color:#fff"></i>customer contact</a></li>
+          <li><a href="admin.php">customer contact</a></li>
           <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown">edit navbar<span class="caret"></span></a>
           <ul class="dropdown-menu">
