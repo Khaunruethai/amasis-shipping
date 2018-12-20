@@ -115,7 +115,7 @@
           <textarea type="text" id="Subject" name="Subject" placeholder="Write something.."style="width:345px"></textarea>
           <div class="row">
           <div class="col-md-12 form-group">
-          <center> <input type="submit" value="sent"></center> 
+          <center> <button type="submit" class="btn btn-primary">sent"></button></center> 
           </form>
           </div>
           <div class="col-md-2">
