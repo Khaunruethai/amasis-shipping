@@ -137,9 +137,8 @@ else
   <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=BenchNine' rel='stylesheet'>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-
 </head>
+<div class ="container">
 <nav class="navbar navbar-default navbar-fixed-top">
 <div class = "container">
  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -384,5 +383,6 @@ else
     })();
 </script>
 <!-- /WhatsHelp.io widget -->
+</div>
 </body>
 </html>
